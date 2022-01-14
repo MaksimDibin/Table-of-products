@@ -1,0 +1,8 @@
+version: '3'
+services:
+  db:
+    image: postgres:14.1
+    environment:
+      MYSQL_ROOT_PASSWORD: "0000"
+    ports:
+      - "8080:8080"
